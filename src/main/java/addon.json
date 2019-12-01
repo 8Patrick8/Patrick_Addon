@@ -1,0 +1,10 @@
+{
+  "uuid": "%uuid%",
+  "name": "Patrick-Addon",
+  "mainClass": "at.patrickmayr.addon.Addon",
+  "description:": "Das neue Patrick-Addon!",
+  "version" : 1,
+  "author": "Patrick Mayr",
+  "category": 2,
+  "icon": "http://icons.iconarchive.com/icons/chrisl21/minecraft/256/Diamond-Sword-icon.png"
+}

@@ -1,0 +1,262 @@
+Symbol range map extraction starting
+Processing 3 files
+processing at\patrickmayr\addon\Addon.java
+@|at\patrickmayr\addon\Addon.java|8|28|at.patrickmayr.addon|package|at.patrickmayr.addon|(file)
+Class Start: at.patrickmayr.addon.Addon
+   @|at\patrickmayr\addon\Addon.java|1196|1203|enabled|field|at.patrickmayr.addon.Addon|enabled|
+   Method Start: GETRequest(Ljava/lang/String;)Ljava/lang/String;
+      @|at\patrickmayr\addon\Addon.java|1239|1249|GETRequest|method|at.patrickmayr.addon.Addon|GETRequest|(Ljava/lang/String;)Ljava/lang/String;
+      @|at\patrickmayr\addon\Addon.java|1232|1238|String|class|java.lang.String
+      @|at\patrickmayr\addon\Addon.java|1272|1283|IOException|class|java.io.IOException
+      @|at\patrickmayr\addon\Addon.java|1250|1256|String|class|java.lang.String
+      @|at\patrickmayr\addon\Addon.java|1257|1263|adress|param|at.patrickmayr.addon.Addon|GETRequest|(Ljava/lang/String;)Ljava/lang/String;|adress|0
+      @|at\patrickmayr\addon\Addon.java|1294|1297|URL|class|java.net.URL
+      @|at\patrickmayr\addon\Addon.java|1321|1324|URL|class|java.net.URL
+      @|at\patrickmayr\addon\Addon.java|1325|1331|adress|param|at.patrickmayr.addon.Addon|GETRequest|(Ljava/lang/String;)Ljava/lang/String;|adress|0
+      @|at\patrickmayr\addon\Addon.java|1342|1348|String|class|java.lang.String
+      @|at\patrickmayr\addon\Addon.java|1374|1391|HttpURLConnection|class|java.net.HttpURLConnection
+      @|at\patrickmayr\addon\Addon.java|1405|1422|HttpURLConnection|class|java.net.HttpURLConnection
+      @|at\patrickmayr\addon\Addon.java|1441|1455|openConnection|method|java.net.URL|openConnection|()Ljava/net/URLConnection;
+      @|at\patrickmayr\addon\Addon.java|1477|1493|setRequestMethod|method|java.net.HttpURLConnection|setRequestMethod|(Ljava/lang/String;)V
+      @|at\patrickmayr\addon\Addon.java|1632|1647|getResponseCode|method|java.net.HttpURLConnection|getResponseCode|()I
+      @|at\patrickmayr\addon\Addon.java|1679|1696|HttpURLConnection|class|java.net.HttpURLConnection
+      @|at\patrickmayr\addon\Addon.java|1697|1704|HTTP_OK|field|java.net.HttpURLConnection|HTTP_OK
+      @|at\patrickmayr\addon\Addon.java|1720|1734|BufferedReader|class|java.io.BufferedReader
+      @|at\patrickmayr\addon\Addon.java|1744|1758|BufferedReader|class|java.io.BufferedReader
+      @|at\patrickmayr\addon\Addon.java|1784|1801|InputStreamReader|class|java.io.InputStreamReader
+      @|at\patrickmayr\addon\Addon.java|1812|1826|getInputStream|method|java.net.URLConnection|getInputStream|()Ljava/io/InputStream;
+      @|at\patrickmayr\addon\Addon.java|1844|1856|StringBuffer|class|java.lang.StringBuffer
+      @|at\patrickmayr\addon\Addon.java|1872|1884|StringBuffer|class|java.lang.StringBuffer
+      @|at\patrickmayr\addon\Addon.java|1923|1931|readLine|method|java.io.BufferedReader|readLine|()Ljava/lang/String;
+      @|at\patrickmayr\addon\Addon.java|1971|1977|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+      @|at\patrickmayr\addon\Addon.java|2007|2012|close|method|java.lang.AutoCloseable|close|()V
+      @|at\patrickmayr\addon\Addon.java|2072|2080|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+   Method End: GETRequest(Ljava/lang/String;)Ljava/lang/String;
+   Method Start: onEnable()V
+      @|at\patrickmayr\addon\Addon.java|2232|2240|onEnable|method|net.labymod.api.LabyModAddon|onEnable|()V
+      @|at\patrickmayr\addon\Addon.java|2253|2259|System|class|java.lang.System
+      @|at\patrickmayr\addon\Addon.java|2260|2263|out|field|java.lang.System|out
+      @|at\patrickmayr\addon\Addon.java|2264|2271|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|at\patrickmayr\addon\Addon.java|2335|2341|getApi|method|net.labymod.api.LabyModAddon|getApi|()Lnet/labymod/api/LabyModAPI;
+      @|at\patrickmayr\addon\Addon.java|2344|2359|getEventManager|method|net.labymod.api.LabyModAPI|getEventManager|()Lnet/labymod/api/EventManager;
+      @|at\patrickmayr\addon\Addon.java|2362|2376|registerOnJoin|method|net.labymod.api.EventManager|registerOnJoin|(Lnet/labymod/utils/Consumer;)V
+      @|at\patrickmayr\addon\Addon.java|2381|2389|Consumer|class|net.labymod.utils.Consumer
+      @|at\patrickmayr\addon\Addon.java|2390|2400|ServerData|class|net.labymod.utils.ServerData
+      Anon Class Start: at.patrickmayr.addon.Addon$1
+         Method Start: accept(Lnet/labymod/utils/ServerData;)V
+            @|at\patrickmayr\addon\Addon.java|2431|2437|accept|method|net.labymod.utils.Consumer|accept|(Ljava/lang/Object;)V
+            @|at\patrickmayr\addon\Addon.java|2444|2454|ServerData|class|net.labymod.utils.ServerData
+            @|at\patrickmayr\addon\Addon.java|2455|2465|serverData|param|at.patrickmayr.addon.Addon$1|accept|(Lnet/labymod/utils/ServerData;)V|serverData|0
+            @|at\patrickmayr\addon\Addon.java|2489|2496|LabyMod|class|net.labymod.main.LabyMod
+            @|at\patrickmayr\addon\Addon.java|2497|2508|getInstance|method|net.labymod.main.LabyMod|getInstance|()Lnet/labymod/main/LabyMod;
+            @|at\patrickmayr\addon\Addon.java|2511|2524|getPlayerName|method|net.labymod.main.LabyMod|getPlayerName|()Ljava/lang/String;
+            @|at\patrickmayr\addon\Addon.java|2562|2569|enabled|field|at.patrickmayr.addon.Addon|enabled
+            @|at\patrickmayr\addon\Addon.java|2646|2653|LabyMod|class|net.labymod.main.LabyMod
+            @|at\patrickmayr\addon\Addon.java|2654|2665|getInstance|method|net.labymod.main.LabyMod|getInstance|()Lnet/labymod/main/LabyMod;
+            @|at\patrickmayr\addon\Addon.java|2668|2688|displayMessageInChat|method|net.labymod.main.LabyMod|displayMessageInChat|(Ljava/lang/String;)V
+            @|at\patrickmayr\addon\Addon.java|2696|2706|serverData|param|at.patrickmayr.addon.Addon$1|accept|(Lnet/labymod/utils/ServerData;)V|serverData|0
+            @|at\patrickmayr\addon\Addon.java|2707|2712|getIp|method|net.labymod.utils.ServerData|getIp|()Ljava/lang/String;
+         Method End: accept(Lnet/labymod/utils/ServerData;)V
+      Anon Class End: at.patrickmayr.addon.Addon$1
+      @|at\patrickmayr\addon\Addon.java|2775|2781|getApi|method|net.labymod.api.LabyModAddon|getApi|()Lnet/labymod/api/LabyModAPI;
+      @|at\patrickmayr\addon\Addon.java|2784|2798|registerModule|method|net.labymod.api.LabyModAPI|registerModule|(Lnet/labymod/ingamegui/Module;)V
+      @|at\patrickmayr\addon\Addon.java|2803|2812|CpuModule|class|at.patrickmayr.addon.CpuModule
+      @|at\patrickmayr\addon\Addon.java|2830|2836|getApi|method|net.labymod.api.LabyModAddon|getApi|()Lnet/labymod/api/LabyModAPI;
+      @|at\patrickmayr\addon\Addon.java|2839|2854|getEventManager|method|net.labymod.api.LabyModAPI|getEventManager|()Lnet/labymod/api/EventManager;
+      @|at\patrickmayr\addon\Addon.java|2857|2865|register|method|net.labymod.api.EventManager|register|(Lnet/labymod/api/events/MessageSendEvent;)V
+      @|at\patrickmayr\addon\Addon.java|2870|2886|MessageSendEvent|class|net.labymod.api.events.MessageSendEvent
+      Anon Class Start: at.patrickmayr.addon.Addon$2
+         Method Start: onSend(Ljava/lang/String;)Z
+            @|at\patrickmayr\addon\Addon.java|2919|2925|onSend|method|net.labymod.api.events.MessageSendEvent|onSend|(Ljava/lang/String;)Z
+            @|at\patrickmayr\addon\Addon.java|2932|2938|String|class|java.lang.String
+            @|at\patrickmayr\addon\Addon.java|2939|2946|message|param|at.patrickmayr.addon.Addon$2|onSend|(Ljava/lang/String;)Z|message|0
+            @|at\patrickmayr\addon\Addon.java|2969|2976|message|param|at.patrickmayr.addon.Addon$2|onSend|(Ljava/lang/String;)Z|message|0
+            @|at\patrickmayr\addon\Addon.java|2977|2987|startsWith|method|java.lang.String|startsWith|(Ljava/lang/String;)Z
+            @|at\patrickmayr\addon\Addon.java|3018|3025|message|param|at.patrickmayr.addon.Addon$2|onSend|(Ljava/lang/String;)Z|message|0
+            @|at\patrickmayr\addon\Addon.java|3026|3034|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+            @|at\patrickmayr\addon\Addon.java|3076|3082|String|class|java.lang.String
+            @|at\patrickmayr\addon\Addon.java|3093|3100|message|param|at.patrickmayr.addon.Addon$2|onSend|(Ljava/lang/String;)Z|message|0
+            @|at\patrickmayr\addon\Addon.java|3101|3106|split|method|java.lang.String|split|(Ljava/lang/String;)[Ljava/lang/String;
+            @|at\patrickmayr\addon\Addon.java|3140|3146|String|class|java.lang.String
+            @|at\patrickmayr\addon\Addon.java|3261|3267|String|class|java.lang.String
+            @|at\patrickmayr\addon\Addon.java|3272|3282|GETRequest|method|at.patrickmayr.addon.Addon|GETRequest|(Ljava/lang/String;)Ljava/lang/String;
+            @|at\patrickmayr\addon\Addon.java|3492|3503|IOException|class|java.io.IOException
+            @|at\patrickmayr\addon\Addon.java|3539|3554|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+            @|at\patrickmayr\addon\Addon.java|3609|3615|String|class|java.lang.String
+            @|at\patrickmayr\addon\Addon.java|3681|3691|JsonObject|class|com.google.gson.JsonObject
+            @|at\patrickmayr\addon\Addon.java|3709|3719|JsonParser|class|com.google.gson.JsonParser
+            @|at\patrickmayr\addon\Addon.java|3722|3727|parse|method|com.google.gson.JsonParser|parse|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+            @|at\patrickmayr\addon\Addon.java|3733|3748|getAsJsonObject|method|com.google.gson.JsonElement|getAsJsonObject|()Lcom/google/gson/JsonObject;
+            @|at\patrickmayr\addon\Addon.java|3797|3800|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+            @|at\patrickmayr\addon\Addon.java|3807|3818|getAsString|method|com.google.gson.JsonElement|getAsString|()Ljava/lang/String;
+            @|at\patrickmayr\addon\Addon.java|3855|3864|Exception|class|java.lang.Exception
+            @|at\patrickmayr\addon\Addon.java|4103|4109|String|class|java.lang.String
+            @|at\patrickmayr\addon\Addon.java|4189|4195|String|class|java.lang.String
+            @|at\patrickmayr\addon\Addon.java|4200|4210|GETRequest|method|at.patrickmayr.addon.Addon|GETRequest|(Ljava/lang/String;)Ljava/lang/String;
+            @|at\patrickmayr\addon\Addon.java|4426|4437|IOException|class|java.io.IOException
+            @|at\patrickmayr\addon\Addon.java|4473|4488|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+            @|at\patrickmayr\addon\Addon.java|4543|4549|String|class|java.lang.String
+            @|at\patrickmayr\addon\Addon.java|4590|4594|Gson|class|com.google.gson.Gson
+            @|at\patrickmayr\addon\Addon.java|4606|4610|Gson|class|com.google.gson.Gson
+            @|at\patrickmayr\addon\Addon.java|4639|4643|Type|class|java.lang.reflect.Type
+            @|at\patrickmayr\addon\Addon.java|4663|4672|TypeToken|class|com.google.common.reflect.TypeToken
+            @|at\patrickmayr\addon\Addon.java|4673|4682|ArrayList|class|java.util.ArrayList
+            @|at\patrickmayr\addon\Addon.java|4683|4689|Person|class|at.patrickmayr.addon.Person
+            Anon Class Start: at.patrickmayr.addon.Addon$2$1
+            Anon Class End: at.patrickmayr.addon.Addon$2$1
+            @|at\patrickmayr\addon\Addon.java|4696|4703|getType|method|com.google.common.reflect.TypeToken|getType|()Ljava/lang/reflect/Type;
+            @|at\patrickmayr\addon\Addon.java|4732|4741|ArrayList|class|java.util.ArrayList
+            @|at\patrickmayr\addon\Addon.java|4742|4748|Person|class|at.patrickmayr.addon.Person
+            @|at\patrickmayr\addon\Addon.java|4767|4775|fromJson|method|com.google.gson.Gson|fromJson|(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
+            @|at\patrickmayr\addon\Addon.java|4873|4879|Person|class|at.patrickmayr.addon.Person
+            @|at\patrickmayr\addon\Addon.java|5085|5100|StringSelection|class|java.awt.datatransfer.StringSelection
+            @|at\patrickmayr\addon\Addon.java|5123|5138|StringSelection|class|java.awt.datatransfer.StringSelection
+            @|at\patrickmayr\addon\Addon.java|5144|5152|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+            @|at\patrickmayr\addon\Addon.java|5189|5198|Clipboard|class|java.awt.datatransfer.Clipboard
+            @|at\patrickmayr\addon\Addon.java|5211|5218|Toolkit|class|java.awt.Toolkit
+            @|at\patrickmayr\addon\Addon.java|5219|5236|getDefaultToolkit|method|java.awt.Toolkit|getDefaultToolkit|()Ljava/awt/Toolkit;
+            @|at\patrickmayr\addon\Addon.java|5239|5257|getSystemClipboard|method|java.awt.Toolkit|getSystemClipboard|()Ljava/awt/datatransfer/Clipboard;
+            @|at\patrickmayr\addon\Addon.java|5303|5314|setContents|method|java.awt.datatransfer.Clipboard|setContents|(Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/ClipboardOwner;)V
+            @|at\patrickmayr\addon\Addon.java|5504|5510|System|class|java.lang.System
+            @|at\patrickmayr\addon\Addon.java|5511|5514|out|field|java.lang.System|out
+            @|at\patrickmayr\addon\Addon.java|5515|5522|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+            @|at\patrickmayr\addon\Addon.java|5595|5602|LabyMod|class|net.labymod.main.LabyMod
+            @|at\patrickmayr\addon\Addon.java|5603|5614|getInstance|method|net.labymod.main.LabyMod|getInstance|()Lnet/labymod/main/LabyMod;
+            @|at\patrickmayr\addon\Addon.java|5617|5637|displayMessageInChat|method|net.labymod.main.LabyMod|displayMessageInChat|(Ljava/lang/String;)V
+         Method End: onSend(Ljava/lang/String;)Z
+      Anon Class End: at.patrickmayr.addon.Addon$2
+   Method End: onEnable()V
+   Method Start: loadConfig()V
+      @|at\patrickmayr\addon\Addon.java|5883|5893|loadConfig|method|net.labymod.api.LabyModAddon|loadConfig|()V
+      @|at\patrickmayr\addon\Addon.java|5911|5918|enabled|field|at.patrickmayr.addon.Addon|enabled
+      @|at\patrickmayr\addon\Addon.java|5926|5935|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
+      @|at\patrickmayr\addon\Addon.java|5938|5941|has|method|com.google.gson.JsonObject|has|(Ljava/lang/String;)Z
+      @|at\patrickmayr\addon\Addon.java|5960|5969|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
+      @|at\patrickmayr\addon\Addon.java|5972|5975|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|at\patrickmayr\addon\Addon.java|5987|5999|getAsBoolean|method|com.google.gson.JsonElement|getAsBoolean|()Z
+   Method End: loadConfig()V
+   Method Start: fillSettings(Ljava/util/List;)V
+      @|at\patrickmayr\addon\Addon.java|6050|6062|fillSettings|method|net.labymod.api.LabyModAddon|fillSettings|(Ljava/util/List;)V
+      @|at\patrickmayr\addon\Addon.java|6074|6089|SettingsElement|class|net.labymod.settings.elements.SettingsElement
+      @|at\patrickmayr\addon\Addon.java|6069|6073|List|class|java.util.List
+      @|at\patrickmayr\addon\Addon.java|6091|6095|list|param|at.patrickmayr.addon.Addon|fillSettings|(Ljava/util/List;)V|list|0
+      @|at\patrickmayr\addon\Addon.java|6113|6127|BooleanElement|class|net.labymod.settings.elements.BooleanElement
+      @|at\patrickmayr\addon\Addon.java|6149|6163|BooleanElement|class|net.labymod.settings.elements.BooleanElement
+      @|at\patrickmayr\addon\Addon.java|6179|6202|ControlElement.IconData|class|net.labymod.settings.elements.ControlElement.IconData
+      @|at\patrickmayr\addon\Addon.java|6203|6211|Material|class|net.labymod.utils.Material
+      @|at\patrickmayr\addon\Addon.java|6212|6219|DIAMOND|field|net.labymod.utils.Material|DIAMOND
+      @|at\patrickmayr\addon\Addon.java|6226|6234|Consumer|class|net.labymod.utils.Consumer
+      @|at\patrickmayr\addon\Addon.java|6235|6242|Boolean|class|java.lang.Boolean
+      Anon Class Start: at.patrickmayr.addon.Addon$3
+         Method Start: accept(Ljava/lang/Boolean;)V
+            @|at\patrickmayr\addon\Addon.java|6273|6279|accept|method|net.labymod.utils.Consumer|accept|(Ljava/lang/Object;)V
+            @|at\patrickmayr\addon\Addon.java|6286|6293|Boolean|class|java.lang.Boolean
+            @|at\patrickmayr\addon\Addon.java|6294|6301|enabled|param|at.patrickmayr.addon.Addon$3|accept|(Ljava/lang/Boolean;)V|enabled|0
+            @|at\patrickmayr\addon\Addon.java|6321|6326|Addon|class|at.patrickmayr.addon.Addon
+            @|at\patrickmayr\addon\Addon.java|6332|6339|enabled|field|at.patrickmayr.addon.Addon|enabled
+            @|at\patrickmayr\addon\Addon.java|6342|6349|enabled|param|at.patrickmayr.addon.Addon$3|accept|(Ljava/lang/Boolean;)V|enabled|0
+            @|at\patrickmayr\addon\Addon.java|6368|6373|Addon|class|at.patrickmayr.addon.Addon
+            @|at\patrickmayr\addon\Addon.java|6379|6388|getConfig|method|net.labymod.api.LabyModAddon|getConfig|()Lcom/google/gson/JsonObject;
+            @|at\patrickmayr\addon\Addon.java|6391|6402|addProperty|method|com.google.gson.JsonObject|addProperty|(Ljava/lang/String;Ljava/lang/Boolean;)V
+            @|at\patrickmayr\addon\Addon.java|6414|6421|enabled|param|at.patrickmayr.addon.Addon$3|accept|(Ljava/lang/Boolean;)V|enabled|0
+            @|at\patrickmayr\addon\Addon.java|6440|6445|Addon|class|at.patrickmayr.addon.Addon
+            @|at\patrickmayr\addon\Addon.java|6451|6461|saveConfig|method|net.labymod.api.LabyModAddon|saveConfig|()V
+         Method End: accept(Ljava/lang/Boolean;)V
+      Anon Class End: at.patrickmayr.addon.Addon$3
+      @|at\patrickmayr\addon\Addon.java|6496|6503|enabled|field|at.patrickmayr.addon.Addon|enabled
+      @|at\patrickmayr\addon\Addon.java|6514|6518|list|param|at.patrickmayr.addon.Addon|fillSettings|(Ljava/util/List;)V|list|0
+      @|at\patrickmayr\addon\Addon.java|6519|6522|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+   Method End: fillSettings(Ljava/util/List;)V
+Class End  : at.patrickmayr.addon.Addon
+endProcessing at\patrickmayr\addon\Addon.java
+
+processing at\patrickmayr\addon\CpuModule.java
+@|at\patrickmayr\addon\CpuModule.java|8|28|at.patrickmayr.addon|package|at.patrickmayr.addon|(file)
+Class Start: at.patrickmayr.addon.CpuModule
+   @|at\patrickmayr\addon\CpuModule.java|435|456|OperatingSystemMXBean|class|com.sun.management.OperatingSystemMXBean
+   @|at\patrickmayr\addon\CpuModule.java|457|459|os|field|at.patrickmayr.addon.CpuModule|os|
+   @|at\patrickmayr\addon\CpuModule.java|463|484|OperatingSystemMXBean|class|com.sun.management.OperatingSystemMXBean
+   @|at\patrickmayr\addon\CpuModule.java|486|503|ManagementFactory|class|java.lang.management.ManagementFactory
+   @|at\patrickmayr\addon\CpuModule.java|504|528|getOperatingSystemMXBean|method|java.lang.management.ManagementFactory|getOperatingSystemMXBean|()Ljava/lang/management/OperatingSystemMXBean;
+   Method Start: getDisplayName()Ljava/lang/String;
+      @|at\patrickmayr\addon\CpuModule.java|566|580|getDisplayName|method|net.labymod.ingamegui.moduletypes.SimpleModule|getDisplayName|()Ljava/lang/String;
+      @|at\patrickmayr\addon\CpuModule.java|559|565|String|class|java.lang.String
+   Method End: getDisplayName()Ljava/lang/String;
+   Method Start: getDisplayValue()Ljava/lang/String;
+      @|at\patrickmayr\addon\CpuModule.java|646|661|getDisplayValue|method|net.labymod.ingamegui.moduletypes.SimpleModule|getDisplayValue|()Ljava/lang/String;
+      @|at\patrickmayr\addon\CpuModule.java|639|645|String|class|java.lang.String
+      @|at\patrickmayr\addon\CpuModule.java|694|696|os|field|at.patrickmayr.addon.CpuModule|os
+      @|at\patrickmayr\addon\CpuModule.java|697|713|getSystemCpuLoad|method|com.sun.management.OperatingSystemMXBean|getSystemCpuLoad|()D
+   Method End: getDisplayValue()Ljava/lang/String;
+   Method Start: getDefaultValue()Ljava/lang/String;
+      @|at\patrickmayr\addon\CpuModule.java|770|785|getDefaultValue|method|net.labymod.ingamegui.moduletypes.SimpleModule|getDefaultValue|()Ljava/lang/String;
+      @|at\patrickmayr\addon\CpuModule.java|763|769|String|class|java.lang.String
+      @|at\patrickmayr\addon\CpuModule.java|805|811|String|class|java.lang.String
+      @|at\patrickmayr\addon\CpuModule.java|812|819|valueOf|method|java.lang.String|valueOf|(I)Ljava/lang/String;
+   Method End: getDefaultValue()Ljava/lang/String;
+   Method Start: getIconData()Lnet/labymod/settings/elements/ControlElement$IconData;
+      @|at\patrickmayr\addon\CpuModule.java|880|891|getIconData|method|net.labymod.ingamegui.Module|getIconData|()Lnet/labymod/settings/elements/ControlElement$IconData;
+      @|at\patrickmayr\addon\CpuModule.java|856|879|ControlElement.IconData|class|net.labymod.settings.elements.ControlElement.IconData
+      @|at\patrickmayr\addon\CpuModule.java|915|938|ControlElement.IconData|class|net.labymod.settings.elements.ControlElement.IconData
+      @|at\patrickmayr\addon\CpuModule.java|939|947|Material|class|net.labymod.utils.Material
+      @|at\patrickmayr\addon\CpuModule.java|948|952|BOOK|field|net.labymod.utils.Material|BOOK
+   Method End: getIconData()Lnet/labymod/settings/elements/ControlElement$IconData;
+   Method Start: loadSettings()V
+      @|at\patrickmayr\addon\CpuModule.java|992|1004|loadSettings|method|net.labymod.ingamegui.Module|loadSettings|()V
+   Method End: loadSettings()V
+   Method Start: getSettingName()Ljava/lang/String;
+      @|at\patrickmayr\addon\CpuModule.java|1049|1063|getSettingName|method|net.labymod.ingamegui.Module|getSettingName|()Ljava/lang/String;
+      @|at\patrickmayr\addon\CpuModule.java|1042|1048|String|class|java.lang.String
+   Method End: getSettingName()Ljava/lang/String;
+   Method Start: getDescription()Ljava/lang/String;
+      @|at\patrickmayr\addon\CpuModule.java|1140|1154|getDescription|method|net.labymod.ingamegui.Module|getDescription|()Ljava/lang/String;
+      @|at\patrickmayr\addon\CpuModule.java|1133|1139|String|class|java.lang.String
+   Method End: getDescription()Ljava/lang/String;
+   Method Start: getSortingId()I
+      @|at\patrickmayr\addon\CpuModule.java|1251|1263|getSortingId|method|net.labymod.ingamegui.Module|getSortingId|()I
+   Method End: getSortingId()I
+   Method Start: getCategory()Lnet/labymod/ingamegui/ModuleCategory;
+      @|at\patrickmayr\addon\CpuModule.java|1333|1344|getCategory|method|net.labymod.ingamegui.Module|getCategory|()Lnet/labymod/ingamegui/ModuleCategory;
+      @|at\patrickmayr\addon\CpuModule.java|1318|1332|ModuleCategory|class|net.labymod.ingamegui.ModuleCategory
+      @|at\patrickmayr\addon\CpuModule.java|1364|1386|ModuleCategoryRegistry|class|net.labymod.ingamegui.ModuleCategoryRegistry
+      @|at\patrickmayr\addon\CpuModule.java|1387|1400|CATEGORY_INFO|field|net.labymod.ingamegui.ModuleCategoryRegistry|CATEGORY_INFO
+   Method End: getCategory()Lnet/labymod/ingamegui/ModuleCategory;
+Class End  : at.patrickmayr.addon.CpuModule
+endProcessing at\patrickmayr\addon\CpuModule.java
+
+processing at\patrickmayr\addon\Person.java
+@|at\patrickmayr\addon\Person.java|8|28|at.patrickmayr.addon|package|at.patrickmayr.addon|(file)
+Class Start: at.patrickmayr.addon.Person
+   @|at\patrickmayr\addon\Person.java|71|73|id|field|at.patrickmayr.addon.Person|id|
+   @|at\patrickmayr\addon\Person.java|87|93|String|class|java.lang.String
+   @|at\patrickmayr\addon\Person.java|94|98|name|field|at.patrickmayr.addon.Person|name|
+   Method Start: getId()J
+      @|at\patrickmayr\addon\Person.java|117|122|getId|method|at.patrickmayr.addon.Person|getId|()J
+      @|at\patrickmayr\addon\Person.java|142|144|id|field|at.patrickmayr.addon.Person|id
+   Method End: getId()J
+   Method Start: setId(J)V
+      @|at\patrickmayr\addon\Person.java|168|173|setId|method|at.patrickmayr.addon.Person|setId|(J)V
+      @|at\patrickmayr\addon\Person.java|179|181|id|param|at.patrickmayr.addon.Person|setId|(J)V|id|0
+      @|at\patrickmayr\addon\Person.java|198|200|id|field|at.patrickmayr.addon.Person|id
+      @|at\patrickmayr\addon\Person.java|203|205|id|param|at.patrickmayr.addon.Person|setId|(J)V|id|0
+   Method End: setId(J)V
+   Method Start: getName()Ljava/lang/String;
+      @|at\patrickmayr\addon\Person.java|231|238|getName|method|at.patrickmayr.addon.Person|getName|()Ljava/lang/String;
+      @|at\patrickmayr\addon\Person.java|224|230|String|class|java.lang.String
+      @|at\patrickmayr\addon\Person.java|258|262|name|field|at.patrickmayr.addon.Person|name
+   Method End: getName()Ljava/lang/String;
+   Method Start: setName(Ljava/lang/String;)V
+      @|at\patrickmayr\addon\Person.java|286|293|setName|method|at.patrickmayr.addon.Person|setName|(Ljava/lang/String;)V
+      @|at\patrickmayr\addon\Person.java|294|300|String|class|java.lang.String
+      @|at\patrickmayr\addon\Person.java|301|305|name|param|at.patrickmayr.addon.Person|setName|(Ljava/lang/String;)V|name|0
+      @|at\patrickmayr\addon\Person.java|322|326|name|field|at.patrickmayr.addon.Person|name
+      @|at\patrickmayr\addon\Person.java|329|333|name|param|at.patrickmayr.addon.Person|setName|(Ljava/lang/String;)V|name|0
+   Method End: setName(Ljava/lang/String;)V
+   Method Start: toString()Ljava/lang/String;
+      @|at\patrickmayr\addon\Person.java|374|382|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|at\patrickmayr\addon\Person.java|367|373|String|class|java.lang.String
+      @|at\patrickmayr\addon\Person.java|402|406|name|field|at.patrickmayr.addon.Person|name
+   Method End: toString()Ljava/lang/String;
+Class End  : at.patrickmayr.addon.Person
+endProcessing at\patrickmayr\addon\Person.java
+
